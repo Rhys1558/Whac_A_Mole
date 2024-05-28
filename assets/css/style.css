@@ -1,0 +1,16 @@
+ {
+
+}
+
+#whac-a-mole {
+    text-align: center;
+    text-transform: capitalize;
+}
+
+#score {
+    text-align: center;
+}
+
+#hole {
+    color: brown;
+}
