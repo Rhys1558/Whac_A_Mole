@@ -1,5 +1,5 @@
- {
-
+html {
+    background-color: green;
 }
 
 #whac-a-mole {
@@ -12,5 +12,5 @@
 }
 
 #hole {
-    color: brown;
+    
 }
