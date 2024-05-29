@@ -40,3 +40,28 @@ body {
     box-shadow: inset 0px 4px 8px rgba(0, 0, 0, 0.5), 0px 4px 8px rgba(0, 0, 0, 0.3); 
     border: 2px solid #3e2a15;
   }
+
+  .mole-hole {
+    position: relative;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background: radial-gradient(circle at 50% 50%, #6b4f2c, #3e2a15);
+    box-shadow: inset 0px 4px 8px rgba(0, 0, 0, 0.5), 0px 4px 8px rgba(0, 0, 0, 0.3); 
+    border: 2px solid #3e2a15;
+    overflow: hidden; /* Ensure the mole image doesn't overflow the mole hole */
+}
+
+.mole {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.mole img {
+    display: block;
+    width: 100px; /* Adjust the size of the mole image */
+    height: 100px; /* Maintain the aspect ratio of the mole image */
+    opacity: 0.5;
+}
