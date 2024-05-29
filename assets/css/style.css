@@ -64,12 +64,4 @@ body {
     background-position: center; /* Center the mole image within the mole hole */
     opacity: 0.7;
     border-radius: 80%;
-
-
-#hammer {
-    position: absolute;
-    display: none;
-    width: 100px;
-    height: auto;
-    pointer-events: none; /* Prevent hammer from being clickable */
 }
