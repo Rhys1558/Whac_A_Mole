@@ -1,3 +1,9 @@
+body {
+    background-image: url(../images/green-field.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-size: 100% auto;
+}
 
 #whac-a-mole {
     text-align: center;
