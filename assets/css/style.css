@@ -1,28 +1,40 @@
 body {
     background-image: url(../images/green-field.webp);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-size: 100% auto;
+    display: flex;
+    justify-content: flex-start;
+    padding-top: 50px;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    flex-direction: column;
+
 }
 
 #whac-a-mole {
     text-align: center;
     text-transform: capitalize;
+    margin: 0;
 }
 
 #score {
     text-align: center;
+    margin: 0;
 }
 
 #grid {
     display: grid;
-    grid-template-rows: repeat(3, auto);
-    grid-template-columns: repeat(3, auto);
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+    justify-items: center;
+    margin-top: 20px;
   }
 
   .mole-hole {
-    width: 100px;
-    height: 100px;
+    width: 150px;
+    height: 150px;
     border-radius: 50%;
     background-color: brown;
 }
+
