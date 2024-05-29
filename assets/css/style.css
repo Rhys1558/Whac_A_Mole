@@ -15,12 +15,14 @@ body {
 }
 
 #grid {
-        display: grid;
-        grid-template-rows: auto;
-        grid-template-columns: auto;
-}
+    display: grid;
+    grid-template-rows: repeat(3, auto);
+    grid-template-columns: repeat(3, auto);
+  }
 
-#mole-hole {
-    height: 800px;
-    width: 800px;
+  .mole-hole {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background-color: brown;
 }
