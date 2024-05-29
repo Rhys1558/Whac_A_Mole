@@ -49,7 +49,6 @@ body {
     background: radial-gradient(circle at 50% 50%, #6b4f2c, #3e2a15);
     box-shadow: inset 0px 4px 8px rgba(0, 0, 0, 0.5), 0px 4px 8px rgba(0, 0, 0, 0.3); 
     border: 2px solid #3e2a15;
-    overflow: hidden; /* Ensure the mole image doesn't overflow the mole hole */
 }
 
 .mole {
@@ -57,11 +56,25 @@ body {
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
+    width: 80px; /* Adjust the width of the mole */
+    height: 80px; /* Adjust the height of the mole */
+    background-image: url('../images/mole.webp'); /* Path to your mole image */
+    background-size: contain; /* Ensure the mole image fits within the mole hole */
+    background-repeat: no-repeat; /* Prevent the mole image from repeating */
+    background-position: center; /* Center the mole image within the mole hole */
 }
 
 .mole img {
     display: block;
-    width: 100px; /* Adjust the size of the mole image */
-    height: 100px; /* Maintain the aspect ratio of the mole image */
+    width: 120px; /* Adjust the size of the mole image */
+    height: 120px; /* Maintain the aspect ratio of the mole image */
     opacity: 0.5;
+}
+
+#hammer {
+    position: absolute;
+    display: none;
+    width: 100px;
+    height: auto;
+    pointer-events: none; /* Prevent hammer from being clickable */
 }
