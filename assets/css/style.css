@@ -10,6 +10,11 @@
 
 #grid {
         display: grid;
-        gap: 1px;
-        grid-template-columns: repeat(3, 1fr);
+        grid-template-rows: auto;
+        grid-template-columns: auto;
+}
+
+#mole-hole {
+    height: 800px;
+    width: 800px;
 }
