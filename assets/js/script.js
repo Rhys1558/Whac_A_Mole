@@ -4,6 +4,7 @@ document.addEventListener("DOMContentLoaded", function() {
     const timerDisplay = document.getElementById("timer-value");
     let score = 0;
     let timeLeft = 60;
+    let moleInterval;
 
     function getRandomHole() {
         const index = Math.floor(Math.random() * holes.length);
@@ -18,7 +19,6 @@ document.addEventListener("DOMContentLoaded", function() {
         hole.appendChild(moleImg);
         setTimeout(() => {
             moleImg.remove();
-            showMole();
         }, 1500);
     }
 
@@ -28,7 +28,6 @@ document.addEventListener("DOMContentLoaded", function() {
             endGame();
         } else {
             timeLeft--;
-            setTimeout(updateTimer, 1000);
         }
     }
 
@@ -46,14 +45,21 @@ document.addEventListener("DOMContentLoaded", function() {
     }
 
     function endGame() {
+        clearInterval(moleInterval); // Stop showing moles
         alert("Game Over! Your final score is: " + score);
         score = 0; // Reset the score to zero
         scoreDisplay.textContent = score; // Update the score display
         timeLeft = 60; // Reset the timer
-        updateTimer(); // Restart the timer
-        showMole(); // Restart the game
+        updateTimer(); // Update timer display
+        moleInterval = setInterval(() => {
+            showMole(); // Show moles periodically
+            updateTimer(); // Update the timer
+        }, 1500); // Adjust the interval as needed
     }
 
-    showMole();
-    updateTimer();
+    updateTimer(); // Start the timer
+    moleInterval = setInterval(() => {
+        showMole(); // Show moles periodically
+        updateTimer(); // Update the timer
+    }, 1500); // Adjust the interval as needed
 });
