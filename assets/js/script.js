@@ -45,21 +45,20 @@ document.addEventListener("DOMContentLoaded", function() {
     }
 
     function endGame() {
-        clearInterval(moleInterval); // Stop showing moles
+        clearInterval(moleInterval); 
         alert("Game Over! Your final score is: " + score);
-        score = 0; // Reset the score to zero
-        scoreDisplay.textContent = score; // Update the score display
-        timeLeft = 60; // Reset the timer
-        updateTimer(); // Update timer display
+        score = 0;
+        scoreDisplay.textContent = score; 
+        timeLeft = 60; 
+        updateTimer(); 
         moleInterval = setInterval(() => {
-            showMole(); // Show moles periodically
-            updateTimer(); // Update the timer
-        }, 1500); // Adjust the interval as needed
-    }
+            showMole(); 
+            updateTimer(); 
+        }, 1500);
 
-    updateTimer(); // Start the timer
+    updateTimer(); 
     moleInterval = setInterval(() => {
-        showMole(); // Show moles periodically
-        updateTimer(); // Update the timer
-    }, 1500); // Adjust the interval as needed
+        showMole(); 
+        updateTimer(); 
+    }, 1500); 
 });
