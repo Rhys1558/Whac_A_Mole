@@ -29,7 +29,7 @@ document.addEventListener('DOMContentLoaded', function () {
 		const moleImg = document.createElement('img');
 		
 		// moleImg.src = 'assets/images/mole.webp';
-		moleImg.src = 'assets/images/mole.png';
+		moleImg.src = 'assets/images/mole.webp';
 		// moleImg.style.background = "transparent";
 		moleImg.classList.add('mole');
 		hole.appendChild(moleImg);
