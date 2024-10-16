@@ -30,6 +30,9 @@ there final score.
 ![mole  hills](https://github.com/Rhys1558/Whac_A_Mole/assets/155891872/b3527632-f652-4def-8bcf-f7d71378fdba)
 
 The mole hills are the possible places in which the mole can appear.
++ Mole
+  
+![mole (2)](https://github.com/user-attachments/assets/3d36e965-db3e-43ed-94be-35247f5aa7d0)
 
 + Hammer
 
