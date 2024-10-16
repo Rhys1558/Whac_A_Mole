@@ -7,7 +7,7 @@ body {
     height: 100%;
     margin: 0;
     flex-direction: column;
-    cursor: url("../images/hammer.png"), auto;
+    cursor: url("../images/hammer.webp"), auto;
 
 }
 
