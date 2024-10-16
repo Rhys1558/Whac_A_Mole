@@ -34,6 +34,8 @@ The mole hills are the possible places in which the mole can appear.
   
 ![mole (2)](https://github.com/user-attachments/assets/3d36e965-db3e-43ed-94be-35247f5aa7d0)
 
+The  mole comes out from different mole holes and disappears when hit with the hammer.
+
 + Hammer
 
 ![hammer](https://github.com/Rhys1558/Whac_A_Mole/assets/155891872/74670990-f2a6-48b5-b1d8-0c5ea1ea0af6)
