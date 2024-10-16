@@ -57,9 +57,9 @@ body {
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    width: 160px; 
-    height: 125px;
-    opacity: 0.7;
+    width: 190px; 
+    height: 115px;
+    opacity: 1.2;
     border-radius: 90%;
     background-color: transparent; 
     border: none; 
