@@ -27,7 +27,10 @@ document.addEventListener('DOMContentLoaded', function () {
 	function showMole() {
 		const hole = getRandomHole();
 		const moleImg = document.createElement('img');
-		moleImg.src = 'assets/images/mole.webp';
+		
+		// moleImg.src = 'assets/images/mole.webp';
+		moleImg.src = 'assets/images/mole.png';
+		// moleImg.style.background = "transparent";
 		moleImg.classList.add('mole');
 		hole.appendChild(moleImg);
 

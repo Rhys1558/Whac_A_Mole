@@ -51,17 +51,17 @@ body {
     border: 2px solid #3e2a15;
 }
 
+
 .mole {
     position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    width: 170px; 
-    height: 170px;
-    background-image: url('../images/mole.webp'); 
-    background-size: contain;
-    background-repeat: no-repeat;
-    background-position: center; 
+    width: 160px; 
+    height: 125px;
     opacity: 0.7;
-    border-radius: 80%;
+    border-radius: 90%;
+    background-color: transparent; 
+    border: none; 
 }
+
