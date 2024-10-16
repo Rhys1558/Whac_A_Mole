@@ -1,3 +1,4 @@
+/* background field */
 body {
     background-image: url(../images/green-field.webp);
     display: flex;
@@ -10,18 +11,18 @@ body {
     cursor: url("../images/hammer.webp"), auto;
 
 }
-
+/* Title */
 #whac-a-mole {
     text-align: center;
     text-transform: capitalize;
     margin: 0;
 }
-
+/* Score */
 #score {
     text-align: center;
     margin: 0;
 }
-
+/* 3x3 grid for mole holes */
 #grid {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
@@ -31,16 +32,7 @@ body {
     justify-items: center;
     margin-top: 20px;
   }
-
-  .mole-hole {
-    width: 100px;
-    height: 100px;
-    border-radius: 50%;
-    background: radial-gradient(circle at 50% 50%, #6b4f2c, #3e2a15);
-    box-shadow: inset 0px 4px 8px rgba(0, 0, 0, 0.5), 0px 4px 8px rgba(0, 0, 0, 0.3); 
-    border: 2px solid #3e2a15;
-  }
-
+/* mole holes style */
   .mole-hole {
     position: relative;
     width: 100px;
@@ -49,9 +41,8 @@ body {
     background: radial-gradient(circle at 50% 50%, #6b4f2c, #3e2a15);
     box-shadow: inset 0px 4px 8px rgba(0, 0, 0, 0.5), 0px 4px 8px rgba(0, 0, 0, 0.3); 
     border: 2px solid #3e2a15;
-}
-
-
+  }
+/* mole style */
 .mole {
     position: absolute;
     top: 50%;
