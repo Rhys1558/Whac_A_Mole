@@ -91,3 +91,6 @@ https://www.freeconvert.com/jpg-to-webp
 + I also learn how to use chatgpt while making this website and i found out just how
 helpful it can be:
 https://chatgpt.com/?oai-dm=1
+
+##Finished Game
+![finished game](https://github.com/user-attachments/assets/c9651256-19a8-4a4e-86a3-36b66ddbe73d)
