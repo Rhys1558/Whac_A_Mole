@@ -65,9 +65,9 @@ JavaScript has some warnings but no errors.
 
 The lighthouse report showed some things that need imroving.
 
-## Unfixed Bugs
+## Fixed Bugs
 
-There is a bug in the game that shows a transparent background around the mole.
+There was a bug in the game that showed a transparent background around the mole. I removed the transparent background and fixed it.
 
 
 ## Deployment
