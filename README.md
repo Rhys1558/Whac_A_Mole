@@ -7,7 +7,7 @@ make anything you can image.
 
 ## Features
 
-My website has multiple different features that all come together to show just how power JavaScript is.
+My website has multiple different features that all come together to show just how powerful JavaScript is.
 
 ### Existing Features
 
