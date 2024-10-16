@@ -92,5 +92,5 @@ https://www.freeconvert.com/jpg-to-webp
 helpful it can be:
 https://chatgpt.com/?oai-dm=1
 
-##Finished Game
+## Finished Game
 ![finished game](https://github.com/user-attachments/assets/c9651256-19a8-4a4e-86a3-36b66ddbe73d)
